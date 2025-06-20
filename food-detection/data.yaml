@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 42
+names: ['-', 'beef carpaccio', 'beet salad', 'breakfast burrito', 'caesar salad', 'caprese salad', 'chicken quesadilla', 'chicken wings', 'clam chowder', 'club sandwich', 'deviled eggs', 'dumplings', 'eggplant', 'falafel', 'french fries', 'french toast', 'fried rice', 'gnocchi', 'greek salad', 'guacamole', 'gyoza', 'hamburger', 'hot dog', 'hummus', 'ice cream', 'lentil soup', 'macaroni and cheese', 'molokhia', 'mussels', 'nachos', 'omelette', 'onion rings', 'pancakes', 'samosa', 'sashimi', 'spring rolls', 'steak', 'stuffed grape leaves', 'sushi', 'sweet potato', 'tacos', 'waffles']
+
+roboflow:
+  workspace: nutracal-object-detection
+  project: food-detection-yldun
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nutracal-object-detection/food-detection-yldun/dataset/1
