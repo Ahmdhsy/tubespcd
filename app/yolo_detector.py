@@ -1,5 +1,4 @@
 from ultralytics import YOLO
-import cv2
 
 model = YOLO("runs/myfood2/weights/best.pt")
 
